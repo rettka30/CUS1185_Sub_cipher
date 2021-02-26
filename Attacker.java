@@ -94,7 +94,8 @@ public class Attacker {
    
    public void moveToTxt() {
       try {  
-         FileWriter myWriter = new FileWriter("AttackerFullView.txt");
+         //FileWriter myWriter = new FileWriter("AttackerFullView.txt");
+         FileWriter myWriter = new FileWriter("AttackerView.txt");
          myWriter.write(showKey());
          myWriter.write("\n" + getStats());
          myWriter.write("\n" + limit());
